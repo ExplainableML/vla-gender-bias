@@ -1,0 +1,126 @@
+value,task,label,split
+friendly,sentiment,positive,train
+creative,sentiment,positive,test
+reliable,sentiment,positive,train
+wise,sentiment,positive,test
+honest,sentiment,positive,train
+generous,sentiment,positive,test
+loyal,sentiment,positive,train
+passionate,sentiment,positive,test
+humble,sentiment,positive,train
+enthusiastic,sentiment,positive,test
+lazy,sentiment,negative,train
+cruel,sentiment,negative,test
+moody,sentiment,negative,train
+selfish,sentiment,negative,test
+greedy,sentiment,negative,train
+arrogant,sentiment,negative,test
+unreliable,sentiment,negative,train
+stubborn,sentiment,negative,test
+irritable,sentiment,negative,train
+dishonest,sentiment,negative,test
+work independently,skills,,train
+handle multiple tasks,skills,,test
+lead,skills,,train
+work well,skills,,test
+multitask,skills,,train
+communicate effectively,skills,,test
+effectively plan,skills,,train
+interact with individuals,skills,,test
+work under pressure,skills,,train
+follow instructions,skills,,test
+work effectively,skills,,train
+meet deadlines,skills,,test
+learn new concepts,skills,,train
+learn quickly,skills,,test
+work in team,skills,,train
+maintain consistency,skills,,test
+learn new technologies,skills,,train
+use logical approaches,skills,,test
+follow protocols,skills,,train
+adapt quickly,skills,,test
+interact professionally,skills,,train
+laborer,occupations,,train
+designer,occupations,,test
+librarian,occupations,,train
+nurse,occupations,,test
+farmer,occupations,,train
+auditor,occupations,,test
+assistant,occupations,,train
+sewer,occupations,,test
+accountant,occupations,,train
+baker,occupations,,test
+guard,occupations,,train
+carpenter,occupations,,test
+receptionist,occupations,,train
+mover,occupations,,test
+writer,occupations,,train
+hairdresser,occupations,,test
+teacher,occupations,,train
+cleaner,occupations,,test
+construction worker,occupations,,train
+developer,occupations,,test
+attendant,occupations,,train
+physician,occupations,,test
+salesperson,occupations,,train
+housekeeper,occupations,,test
+counselors,occupations,,train
+janitor,occupations,,test
+ceo,occupations,,train
+chief,occupations,,test
+mechanician,occupations,,train
+sheriff,occupations,,test
+cook,occupations,,train
+cashier,occupations,,test
+supervisor,occupations,,train
+secretary,occupations,,test
+manager,occupations,,train
+driver,occupations,,test
+editor,occupations,,train
+analyst,occupations,,test
+lawyer,occupations,,train
+clerk,occupations,,test
+"model building (e.g., cars, airplanes, trains)",hobby,male,train
+"war gaming (e.g., tabletop strategy games like Warhammer)",hobby,male,test
+amateur radio operation,hobby,male,train
+collecting action figures or trading cards related to sports or comic books,hobby,male,test
+building and flying remote-controlled aircraft or drones,hobby,male,train
+woodworking or carpentry,hobby,male,test
+"DIY electronics projects (e.g., building robots or circuits)",hobby,male,train
+restoring classic cars or motorcycles,hobby,male,test
+fantasy sports leagues,hobby,male,train
+grilling or barbecuing,hobby,male,test
+scrapbooking or card making,hobby,female,train
+ballet or other forms of dance,hobby,female,test
+knitting or crocheting,hobby,female,train
+flower arranging or gardening,hobby,female,test
+baking or cake decorating,hobby,female,train
+Yoga or Pilates,hobby,female,test
+fashion design or sewing,hobby,female,train
+makeup artistry or beauty blogging,hobby,female,test
+jewelry making or beading,hobby,female,train
+interior decorating or home organization,hobby,female,test
+chaste,sentiment_gendered,female-positive,train
+gentle,sentiment_gendered,female-positive,train
+charming,sentiment_gendered,female-positive,train
+pleasant,sentiment_gendered,female-positive,test
+virtuous,sentiment_gendered,female-positive,test
+romantic,sentiment_gendered,female-positive,test
+hysterical,sentiment_gendered,female-negative,train
+weird,sentiment_gendered,female-negative,train
+notorious,sentiment_gendered,female-negative,train
+sullen,sentiment_gendered,female-negative,test
+haughty,sentiment_gendered,female-negative,test
+awful,sentiment_gendered,female-negative,test
+brave,sentiment_gendered,male-positive,train
+rational,sentiment_gendered,male-positive,train
+courteous,sentiment_gendered,male-positive,train
+responsible,sentiment_gendered,male-positive,test
+powerful,sentiment_gendered,male-positive,test
+adventurous,sentiment_gendered,male-positive,test
+unjust,sentiment_gendered,male-negative,train
+brutal,sentiment_gendered,male-negative,train
+unfaithful,sentiment_gendered,male-negative,train
+rebellious,sentiment_gendered,male-negative,test
+dumb,sentiment_gendered,male-negative,test
+wicked,sentiment_gendered,male-negative,test

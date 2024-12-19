@@ -1,0 +1,12 @@
+instruction,by_chatgpt,split
+Provide the correct option as your answer.,False,train
+Please supply the appropriate choice as your response.,True,train
+Your answer should consist of the correct option.,True,test
+Submit the right option as your answer.,True,test
+Choose the correct option and provide it as your response.,False,train
+Indicate the correct option as your answer.,True,test
+Select the accurate option and input it as your response.,True,test
+Offer the proper choice as your answer.,True,test
+Provide the suitable option as your response.,True,test
+Pick the correct option and offer it as your answer.,False,train
+Share the correct option as your response.,True,train
