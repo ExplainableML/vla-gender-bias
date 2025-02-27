@@ -1,7 +1,10 @@
 <div align="center">
     
-# Revealing and Reducing Gender Biases in Vision and Language Assistants (VLAs)
+# Revealing and Reducing Gender Biases in Vision and Language Assistants (VLAs) <br/> _ICLR 2025_
 [![Paper](http://img.shields.io/badge/paper-arxiv.2410.19314-B31B1B.svg)](https://arxiv.org/abs/2410.19314)
+[![Paper](https://img.shields.io/badge/paper-OpenReview-8C1B13.svg)](https://openreview.net/forum?id=oStNAMWELS)
+
+
 
 Leander Girrbach<sup>1,2,3</sup> &#8198; Yiran Huang<sup>1,2,3</sup> &#8198; Stephan Alaniz<sup>1,2,3</sup> &#8198; Trevor Darrell<sup>4</sup> &#8198; Zeynep Akata<sup>1,2,3</sup>
 
@@ -55,11 +58,12 @@ python tuning.py --model $MODEL --lr 0.0001 --threshold 0.05 --num-images-per-da
 Please use the following bibtex entry to cite our work:
 
 ```bib
-@inproceedings{girrbach2024revealing,
-  title={Revealing and Reducing Gender Biases in Vision and Language Assistants (VLAs)},
-  author={Girrbach, Leander and Huang, Yiran and Alaniz, Stephan and Darrell, Trevor and Akata, Zeynep},
-  booktitle={arXiv},
-  year={2024}
+@inproceedings{girrbach2025revealing,
+  title={Revealing and Reducing Gender Biases in Vision and Language Assistants ({VLA}s)},
+  author={Leander Girrbach and Yiran Huang and Stephan Alaniz and Trevor Darrell and Zeynep Akata},
+  booktitle={The Thirteenth International Conference on Learning Representations},
+  year={2025},
+  url={https://openreview.net/forum?id=oStNAMWELS}
 }
 ```
 
