@@ -6,9 +6,9 @@
 
 
 
-Leander Girrbach<sup>1,2,3</sup> &#8198; Yiran Huang<sup>1,2,3</sup> &#8198; Stephan Alaniz<sup>1,2,3</sup> &#8198; Trevor Darrell<sup>4</sup> &#8198; Zeynep Akata<sup>1,2,3</sup>
+Leander Girrbach<sup>1,2</sup> &#8198; Stephan Alaniz<sup>1,2</sup> &#8198; Yiran Huang<sup>1,2</sup> &#8198; Trevor Darrell<sup>3</sup> &#8198; Zeynep Akata<sup>1,2</sup>
 
-<sup>1</sup>Technical University of Munich &#8198; <sup>2</sup> Helmholtz Munich &#8198; <sup>3</sup> MCML &#8198; <sup>4</sup> UC Berkeley
+<sup>1</sup>Technical University of Munich, MCML &#8198; <sup>2</sup> Helmholtz Munich &#8198; <sup>3</sup> UC Berkeley
 </div>
 
 ## Description
