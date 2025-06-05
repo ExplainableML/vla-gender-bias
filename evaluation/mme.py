@@ -1,7 +1,6 @@
 from tqdm import tqdm
 from typing import Optional
 from datasets import Dataset
-from pruning import PruningVLM
 from datasets import load_dataset
 from datasets import load_from_disk
 from sklearn.metrics import accuracy_score
@@ -16,7 +15,7 @@ def load_filtered_mme(num_questions: Optional[int] = None) -> Dataset:
     return dataset
 
 
-def get_mme_performance(model: PruningVLM, dataset: Dataset) -> float:
+def get_mme_performance(model, dataset: Dataset) -> float:
     y_pred, y_true = [], []
 
     for dp in tqdm(dataset, leave=False):
@@ -37,5 +36,5 @@ class MMEScorer:
     def __init__(self, num_questions: Optional[int] = None) -> None:
         self.dataset = load_filtered_mme(num_questions=num_questions)
     
-    def score(self, model: PruningVLM) -> float:
+    def score(self, model) -> float:
         return get_mme_performance(model, self.dataset)

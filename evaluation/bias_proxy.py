@@ -1,11 +1,10 @@
 import numpy as np
 
 from evaluation.bias import BiasScorer
-from pruning.pruning_vlm import PruningVLM
 
 
 class BiasProxyScorer(BiasScorer):
-    def score(self, model: PruningVLM) -> float:
+    def score(self, model) -> float:
         scores = super().score(model)
         yes_prob = scores["yes_prob"]
 

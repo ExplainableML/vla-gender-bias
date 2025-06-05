@@ -4,14 +4,13 @@ import numpy as np
 import pandas as pd
 
 from tqdm import tqdm
-from pruning import PruningVLM
 from utils.configs import dataset_configs
 from torch.utils.data import DataLoader, Dataset
 from bias_eval_utils import BiasPromptIterator, Prompt
 
 
 class BiasDataset(Dataset):
-    def __init__(self, dataset: list[Prompt], model: PruningVLM) -> None:
+    def __init__(self, dataset: list[Prompt], model) -> None:
         self.dataset = dataset
         self.model = model
 
@@ -43,7 +42,7 @@ class BiasDataset(Dataset):
         }
 
 
-def get_bias_performance(model: PruningVLM, task: int, num_images: int) -> float:
+def get_bias_performance(model, task: int, num_images: int) -> float:
     results = []
 
     # Get prompts
@@ -100,7 +99,7 @@ class BiasScorer:
         self.num_images = num_images
         self.task = task
 
-    def score(self, model: PruningVLM) -> pd.DataFrame:
+    def score(self, model) -> pd.DataFrame:
         bias_performance = get_bias_performance(
             model, task=self.task, num_images=self.num_images
         )

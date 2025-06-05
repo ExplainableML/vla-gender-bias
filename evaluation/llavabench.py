@@ -2,7 +2,6 @@
 import numpy as np
 
 from tqdm import tqdm
-from pruning import PruningVLM
 from datasets import load_dataset as load_hf_dataset
 
 
@@ -12,7 +11,7 @@ def load_dataset() -> list[dict]:
     return dataset
 
 
-def get_llavabench_performance(model: PruningVLM, dataset: list[dict]) -> float:
+def get_llavabench_performance(model, dataset: list[dict]) -> float:
     nll_values = []
 
     for dp in tqdm(dataset, leave=False):
@@ -28,5 +27,5 @@ class LLavaBenchScorer:
     def __init__(self) -> None:
         self.dataset = load_dataset()
     
-    def score(self, model: PruningVLM) -> float:
+    def score(self, model) -> float:
         return get_llavabench_performance(model, self.dataset)
